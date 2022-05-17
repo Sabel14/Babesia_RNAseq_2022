@@ -1,8 +1,9 @@
 # This script takes a tab-delimited txt file from StringTie
 # with gene abundances and bins the expression (TPM) into bins of
 # approximately 50,000 bp to cover the whole chromosome for chr1-5 of
-# of the newly made assembly for Babesia duncani.
-# April 2022
+# of the newly made assembly for Babesia duncani, taking the average TPM
+# of the genes in that bin.
+# Steven Abel, April 2022
 
 from sys import argv
 
